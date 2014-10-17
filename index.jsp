@@ -23,6 +23,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    
   <body> 
   	图书管理主页</br>
+
+
+
+
     all books <br>
     ISBN	Title	AuthorID	Publisher	PublishDate		Price</br>
     <s:iterator value="#list">

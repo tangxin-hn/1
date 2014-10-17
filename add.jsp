@@ -28,6 +28,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
   	增加图书
    	<s:form action="book!add.action">
+
+
+
     <s:textfield name="ISBN" label="ISBN"/>
     <s:textfield name="Title" label="Title"/>
     <s:textfield name="AuthorID" label="AuthorID"/>
