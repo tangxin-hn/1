@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+﻿<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%@taglib uri="/struts-tags" prefix="s" %>
 <%
 String path = request.getContextPath();
@@ -26,6 +26,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
   	增加图书
    	<s:form action="book!add.action">
+
+
+
     <s:textfield name="ISBN" label="ISBN"/>
     <s:textfield name="Title" label="Title"/>
     <s:textfield name="AuthorID" label="AuthorID"/>

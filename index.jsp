@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+﻿<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%@taglib uri="/struts-tags" prefix="s" %>
 <%
 String path = request.getContextPath();
@@ -23,6 +23,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    
   <body> 
   	图书管理主页</br>
+
+
+
+
     all books <br>
     ISBN	Title	AuthorID	Publisher	PublishDate		Price</br>
     <s:iterator value="#list">
