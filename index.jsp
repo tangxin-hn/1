@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+﻿<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%@taglib uri="/struts-tags" prefix="s" %>
 <%
 String path = request.getContextPath();
@@ -30,6 +30,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
        <s:property value="Title"/>
        <s:property value="AuthorID"/>
        <s:property value="Publisher"/>
+
+
+
+
+
        <s:property value="PublishDate"/>
        <s:property value="Price"/>
        <s:a href="book!delete.action?ISBN=%{ISBN}">delete</s:a> 
