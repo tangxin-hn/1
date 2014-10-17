@@ -1,9 +1,5 @@
 hello!world!
 
-
-
-
 how are you?
-
 see you.
->>>>>>> C4
+
